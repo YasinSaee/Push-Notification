@@ -1,8 +1,8 @@
 package main
 
 import (
-	"notification/config"
-	"notification/notification"
+	"github.com/YasinSaee/Push-Notification/config"
+	"github.com/YasinSaee/Push-Notification/notification"
 )
 
 func main() {

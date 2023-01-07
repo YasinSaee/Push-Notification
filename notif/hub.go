@@ -1,8 +1,7 @@
 package notif
 
 import (
-	"notification/notif/message"
-
+	"github.com/YasinSaee/Push-Notification/notif/message"
 	"go.mongodb.org/mongo-driver/bson/primitive"
 )
 

@@ -1,8 +1,8 @@
 package notification
 
 import (
-	"notification/config"
-	"notification/notif"
+	"github.com/YasinSaee/Push-Notification/config"
+	"github.com/YasinSaee/Push-Notification/notif"
 )
 
 func InitNotification() {

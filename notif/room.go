@@ -1,10 +1,9 @@
 package notif
 
 import (
-	"notification/config"
-	"notification/context"
-	"notification/notif/room"
-
+	"github.com/YasinSaee/Push-Notification/config"
+	"github.com/YasinSaee/Push-Notification/context"
+	"github.com/YasinSaee/Push-Notification/notif/room"
 	"github.com/labstack/gommon/log"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/bson/primitive"
