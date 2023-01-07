@@ -1,0 +1,28 @@
+{
+    "notification":{
+        "port": 1200,
+        "debug": true,
+        "mongo_db": "shop",
+        "mongo_port": 27017,
+        "domain": "shop.ir",
+        "mongo_host": "mongodb://localhost:27017",
+        "default_lang": "fa"
+    },
+    "authentication":{
+      "access_token":{
+          "expire_time":15000,
+          "secret_key":"$^d)r++g#@2!q8=@u@7$dnaw=r52tfq@5a5w3p$j_o$4zev0jy"
+      },
+      "refresh_token":{
+          "expire_time":60,
+          "secret_key":"6kx6pc2d#((dvuch%xdrattw%(i5mz#-r)9+yo6%7ckh@ybty3"
+      },
+      "otp_token":{
+          "expire_time":2,
+          "secret_key":"+t9wj*zk$mj(97q3u^=!1je9(6*tzu)_wjw@a!j1+ew1m*s39w"
+      },
+      "use_redis":false
+  }
+}
+  
+  
