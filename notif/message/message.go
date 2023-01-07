@@ -1,9 +1,8 @@
 package message
 
 import (
-	"notification/config"
-	"notification/context"
-
+	"github.com/YasinSaee/Push-Notification/config"
+	"github.com/YasinSaee/Push-Notification/context"
 	"github.com/labstack/gommon/log"
 	"go.mongodb.org/mongo-driver/bson/primitive"
 )

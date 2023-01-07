@@ -6,11 +6,11 @@ import (
 	"fmt"
 	"io/ioutil"
 	"net/http/pprof"
-	"notification/connection/mongo"
-	"notification/context"
 
 	"strings"
 
+	"github.com/YasinSaee/Push-Notification/connection/mongo"
+	"github.com/YasinSaee/Push-Notification/context"
 	session "github.com/ipfans/echo-session"
 	"github.com/labstack/echo"
 	"github.com/labstack/echo/middleware"

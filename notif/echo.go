@@ -2,11 +2,11 @@ package notif
 
 import (
 	"net/http"
-	"notification/context"
-	"notification/notif/client"
-	"notification/notif/customer_message"
-	"notification/notif/message"
 
+	"github.com/YasinSaee/Push-Notification/context"
+	"github.com/YasinSaee/Push-Notification/notif/client"
+	"github.com/YasinSaee/Push-Notification/notif/customer_message"
+	"github.com/YasinSaee/Push-Notification/notif/message"
 	"github.com/gorilla/websocket"
 	"github.com/labstack/echo"
 	"github.com/labstack/gommon/log"

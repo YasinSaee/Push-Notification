@@ -1,11 +1,10 @@
 package notif
 
 import (
-	"notification/config"
-	"notification/context"
-	"notification/notif/client"
-	"notification/notif/message"
-
+	"github.com/YasinSaee/Push-Notification/config"
+	"github.com/YasinSaee/Push-Notification/context"
+	"github.com/YasinSaee/Push-Notification/notif/client"
+	"github.com/YasinSaee/Push-Notification/notif/message"
 	"github.com/gorilla/websocket"
 	"github.com/labstack/gommon/log"
 	"go.mongodb.org/mongo-driver/bson"

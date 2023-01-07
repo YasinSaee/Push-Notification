@@ -2,10 +2,10 @@ package customer_message
 
 import (
 	"encoding/json"
-	"notification/config"
-	"notification/context"
-	"notification/notif/message"
 
+	"github.com/YasinSaee/Push-Notification/config"
+	"github.com/YasinSaee/Push-Notification/context"
+	"github.com/YasinSaee/Push-Notification/notif/message"
 	"github.com/labstack/echo"
 	"github.com/labstack/gommon/log"
 	"go.mongodb.org/mongo-driver/bson/primitive"
